@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #ccc;
+        }
+
+        #err-title {
+            color: red;
+            padding: 15px;
+        }
+
+        #err-stack {
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        #err-image {
+            float: right;
+            margin-right: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 id="err-title">
+        <span id="err-status">
+            <%= error.status %>
+        </span>
+        <%= message %>
+    </h2>
+
+    <pre id="err-stack"><%= error.stack %></pre>
+    <div id="err-image">
+        <img src="/public/images/error-img(1).png" width="180px" alt="err-img">
+    </div>
+</body>
+
+</html>

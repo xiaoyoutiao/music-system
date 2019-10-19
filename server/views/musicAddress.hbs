@@ -1,0 +1,20 @@
+<ul>
+  {{#each data}}
+  <li>
+    <p>音乐ID : {{this.id}}</p>
+    <p>
+      <span>音乐地址 : </span>
+      <a href="{{this.url}}">{{this.url}}</a>
+    </p>
+    <p>音乐大小 : {{this.size}} Bit</p>
+    <p>
+      <span>是否收费 : </span>
+      {{#if this.fee}}
+      <span>收费</span>
+      {{else}}
+      <span>免费</span> {{/if}}
+    </p>
+    <p><span>音质 : </span><span>{{this.br}}</span></p>
+  </li>
+  {{/each}}
+</ul>

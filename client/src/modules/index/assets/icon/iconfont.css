@@ -1,0 +1,37 @@
+
+@font-face {font-family: "MusicIcon";
+  src: url('iconfont.eot?t=1543934292208'); /* IE9*/
+  src: url('iconfont.eot?t=1543934292208#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'),
+  url('iconfont.ttf?t=1543934292208') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1543934292208#MusicIcon') format('svg'); /* iOS 4.1- */
+}
+
+.MusicIcon {
+  font-family:"MusicIcon" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.music-icon-music-play:before { content: "\e6a4"; }
+
+.music-icon-music-pause:before { content: "\e6a5"; }
+
+.music-icon-music-prev:before { content: "\e6a6"; }
+
+.music-icon-music-player:before { content: "\e6ab"; }
+
+.music-icon-index:before { content: "\e65d"; }
+
+.music-icon-sound-low:before { content: "\e7b9"; }
+
+.music-icon-sound-hight:before { content: "\e7ba"; }
+
+.music-icon-sound-none:before { content: "\e7bb"; }
+
+.music-icon-sound-middle:before { content: "\e7b5"; }
+
+.music-icon-music-next-copy:before { content: "\e6ac"; }
+

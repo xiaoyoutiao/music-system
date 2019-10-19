@@ -1,0 +1,35 @@
+body {
+    color: #606266;
+}
+
+.module-title {
+    text-align: left;
+    color: #606266;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 1px 3px 3px #e5e5e5;
+}
+
+.view-wrap {}
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: #f2f2f2;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(155, 155, 155, .3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(155, 155, 155, .3);
+    background-color: rgba(155, 155, 155, .3);
+}

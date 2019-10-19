@@ -1,0 +1,25 @@
+@font-face {font-family: "music-icon";
+  src: url('iconfont.eot?t=1555163497796'); /* IE9 */
+  src: url('iconfont.eot?t=1555163497796#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOgAAsAAAAAB3wAAANSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCTIJEATYCJAMMCwgABCAFhQUHOBukBsgOJWDACAHskQlg8PDlZn+SgdKBVQ9rUtE1MZaGlKIvpCvi192bqNxE9Ch2FIfg4X417/+N5uIFS1xawqoL8Eo8TD6yBru9g2Opn9YC9wFg1U1ZQmmRIL+oohYfyAR9i+zakv5g3g4BKBpqS/QeDR6NBwnZTwAiOrMCeFJuJFKIeRC4S06ViM248GhrtNtgk//74rO88ICGS4ccOnzcp4Tue/9+pL44vdhkFwFnPCMgnAU60BZIEFNLzePpYbgtHaWJZX2qG4lAG8uXTuOzdaGb/sMDDQHCDcn2AdASIxq889vsWDISuGd9Kx0AN5AJBMFWCK66y7uQPl9lKSvUyZTW79Oxz56Ne/JkzOPHEy3h6ICZpHv6dMrDp+rpQoln/+OePRkz2ivU6KrwBc8PhFiy/+kNi/dNlOjKbHI6au3FurblUrvSnistfevl9XCbqVhe0yt9H2Vp69YlTlL0fMNElMbksGLz9PRw4nMxJkasY8OBHLHVz49ZlT1t8bCxM+iA/PQnj9ApI68WXdfScba179F53qEH+R9Zj7n5uaR7VfT7Llcwjvq9l33+5Dl/d23FqfeThDJcRnjp7v76jb2/Vc+bq0cbq9/exku6aeGbTWsNGXjFJDx0m4Orv6+aDiB9PL2XDvCjK9Md+txf8zcsa3Zj57RKnb8VvBKA589VGJzplRnaZYIHDVpzfgSnZZvUeUSjS5Vts82YTj7XbRajUEAaYq/qbX95jZs1ClSKI4BGBo1AR9EcKbE54MJLR3Cj6AOKNoad7aWauXSEzARa28CAoLozoFGRW6BT3QukxH4FFzVDgJvqUQsUY6PNJb00jyWq14EZcMwSY8YcIxxMxENWwFGx4xSI2smLRppWeTRgi2VhYKxpp8LQY+Rm5RTE+plx0x7riNRMK89xQkbITsSMvoPezYxGE0bSTpSZQSer1HGSHbOzQ2XvlBVMxFD0YjMFOEwlDDPMYQgLSogLubkORUy5FMjb1QRHMlkwPirArq2ZD49lskUWrm/IlSWnFbKfON6y6trekjKTJY/DEWIIsSXEGPqu1miK0nCCIVm+UxlTkCNLaY9gUkfZ2C3UVpw1rzT2rEcABbmuLjShC0nG3GkgbpWWy9gsFgAAAA==') format('woff2'),
+  url('iconfont.woff?t=1555163497796') format('woff'),
+  url('iconfont.ttf?t=1555163497796') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1555163497796#music-icon') format('svg'); /* iOS 4.1- */
+}
+
+.music-icon {
+  font-family: "music-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.miconzhanghu:before {
+  content: "\e652";
+}
+
+.miconmima:before {
+  content: "\e621";
+}
+

@@ -1,0 +1,17 @@
+#music-main {
+    background-color: #fff;
+    margin-top: 25px;
+    padding: 30px 30px 0 10px;
+    .main-container {
+        .input-with-select {
+            margin-bottom: 30px;
+            .el-input__inner {
+                text-align: center;
+            }
+        }
+    }
+}
+
+.search-btn-hover:hover {
+    background-color: #fff !important;
+}

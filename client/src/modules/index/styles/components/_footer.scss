@@ -1,0 +1,16 @@
+#music-footer {
+    background-color: #2b2f3a;
+    .music-declaration {
+        color: #ccc;
+        line-height: 50px;
+        cursor: pointer;
+        &:hover {
+            color: #eee;
+        }
+    }
+}
+.declaration-box {
+    p {
+        line-height: 45px;
+    }
+}
