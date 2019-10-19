@@ -2,9 +2,11 @@
 
 ## 项目结构:
 
+```
 |--
    |-- admin - 后台管理系统代码
    |-- client - 前台代码
    |-- server - 后台代码
    |-- database - mongodb备份
 
+```
